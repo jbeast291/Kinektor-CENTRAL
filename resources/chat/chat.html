@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kinektor</title>
+    <link rel="stylesheet" href="/resources/chat/chat.css">
+    <link rel="icon" type="image/x-icon" href="/resources/images/logo.png">
+</head>
+
+<body>
+    <div class="MainContentContainer">
+        <div class="ChatBox">
+            <div class="TextChatArea scroll" id="mainTextArea">
+                <!--
+                <div class="TextMessageContianer">
+                    <div class="UserInfoContainer">
+                        <div class="profilePic" style="background-image: url(/resources/images/temp.jpg);"></div>
+                        <div class="Username">Jbeast291</div>
+                    </div>
+                    <div class="TextMessage">THIS IS A TEST MESSAGE</div>
+                </div>-->
+            </div>
+
+            <div class="InputBar">
+                <input class="InputBox" type="text" id="MessageBox">
+                <div class="button" onmouseup="sendMessage();"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+<script src="https://cdn.socket.io/4.7.2/socket.io.min.js" crossorigin="anonymous"></script>
+<script src="/resources/chat/chat.js"></script>
+
+</html>
