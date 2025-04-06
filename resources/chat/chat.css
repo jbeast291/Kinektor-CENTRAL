@@ -147,3 +147,8 @@ body {
     transition: transform 0.1s ease,
         background-color 0.1s ease, filter 0.1s ease;
 }
+
+.Notif {
+    font-size: 20px;
+    justify-content: left;
+}
